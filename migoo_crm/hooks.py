@@ -189,6 +189,19 @@ override_whitelisted_methods = {
 #	"migoo_crm.auth.validate"
 # ]
 fixtures=[
-	"Client Script","Server Script"
-	]
-
+    {"dt": "Website Theme", "filters": [
+        [
+            "name", "in", [
+                "migoo"
+            ]
+        ]
+    ]},
+     {"dt": "Web Template", "filters": [
+        [
+            "module", "in", [
+                "Migoo CRM"
+            ]
+        ]
+    ]}
+    ,{"dt": "Web Page"},{"dt": "Client Script"},{"dt": "Custom Field"},{"dt": "Server Script"}
+]
