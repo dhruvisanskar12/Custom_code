@@ -202,6 +202,13 @@ fixtures=[
                 "Migoo CRM"
             ]
         ]
+    ]},
+    {"dt": "DocType", "filters": [
+        [
+            "module", "in", [
+                "Migoo CRM"
+            ]
+        ]
     ]}
     ,{"dt": "Web Page"},{"dt": "Client Script"},{"dt": "Custom Field"},{"dt": "Server Script"}
 ]
