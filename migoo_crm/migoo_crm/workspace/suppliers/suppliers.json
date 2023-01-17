@@ -1,0 +1,58 @@
+{
+ "charts": [
+  {
+   "chart_name": "Bar Graph",
+   "label": "Equipment Verify"
+  }
+ ],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Supplier</span>\",\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Equipment Verify\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Your Details\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Equipment\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Equipment Dashboard\",\"col\":3}}]",
+ "creation": "2022-10-13 12:26:59.955294",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "both",
+ "idx": 0,
+ "label": "Suppliers",
+ "links": [],
+ "modified": "2023-01-13 15:58:59.311182",
+ "modified_by": "foram@sanskartechnolab.com",
+ "module": "Migoo CRM",
+ "name": "Suppliers",
+ "owner": "foram@sanskartechnolab.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Vendor"
+  }
+ ],
+ "sequence_id": 32.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "{} Verified",
+   "label": "Equipment",
+   "link_to": "Item",
+   "stats_filter": "{\"disabled\":[\"=\",0]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Equipment Dashboard",
+   "link_to": "Equipment Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Your Details",
+   "link_to": "Supplier",
+   "type": "DocType"
+  }
+ ],
+ "title": "Suppliers"
+}
