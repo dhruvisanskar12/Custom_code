@@ -191,8 +191,8 @@ override_whitelisted_methods = {
 fixtures=[
     {"dt": "Website Theme", "filters": [
         [
-            "name", "in", [
-                "migoo"
+            "module", "in", [
+                "Migoo CRM"
             ]
         ]
     ]},
